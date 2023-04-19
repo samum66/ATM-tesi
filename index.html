@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM prohect Tesi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ATM</h1>
+    </header>
+    <div class="main">
+      <div class="keypad">
+        <button class="btnstyle" onclick="fillInput(1)">1</button>
+        <button class="btnstyle" onclick="fillInput(2)">2</button>
+        <button class="btnstyle" onclick="fillInput(3)">3</button>
+        <button class="btnstyle" onclick="fillInput(4)">4</button>
+        <button class="btnstyle" onclick="fillInput(5)">5</button>
+        <button class="btnstyle" onclick="fillInput(6)">6</button>
+        <button class="btnstyle" onclick="fillInput(7)">7</button>
+        <button class="btnstyle" onclick="fillInput(8)">8</button>
+        <button class="btnstyle" onclick="fillInput(9)">9</button>
+        <button class="btnstyle" onclick="fillInput(0)">0</button>
+        <button class="btnstyle" id="submitbtn" onclick="checkPin()">
+          Submit
+        </button>
+        <button class="btnstyle cancel-btn">cancel</button>
+      </div>
+      <div class="userint">
+        <div class="userintheader">
+          <div id="pin-request">
+            Welcome! <br />
+            please insert your card
+          </div>
+          <input type="number" id="pin" min="0" max="9999" />
+          <div id="pin-verification" class="margin"></div>
+        </div>
+          <div class="userintmain">
+          <div id="menu" style="display: none">
+            <h1>ATM MENU</h1>
+            <button class="atmmenu" id="deposit-btn">Deposit Money</button>
+            <button class="atmmenu" id="withdraw-btn" >Withdraw Money</button>
+            <button class="atmmenu" onclick="checkBalance()">Check Balance</button>
+            <button class="atmmenu cancel-btn" >Quit</button>
+          </div>
+          
+        <div class="flex1">
+          <div id="balance-display" class="blink" style="display: none"></div>
+          
+          <div id="deposit-form" style="display:none;">
+            <br>
+            <label for="deposit-amount">Enter deposit amount: <br> (x20 X50 X100 bills only)</label>
+            <br>
+            <input type="number" id="deposit-amount" name="deposit-amount">
+            <br>
+            <button id="confirm-deposit">Confirm</button>
+            <br>
+            <button id="back-btn" style="display: none">Back</button>
+            <p id="wrong-bills"></p>
+          </div>
+          
+          <div id="withdraw-form" style="display:none;">
+            <br>
+            <label for="withdraw-amount"> Enter withdraw-amount amount: <br> (x20 X50 X100 bills only)</label>
+            <br>
+            <input type="number" id="withdraw-amount" name="withdraw-amount">
+            <br>
+            <button id="confirm-withdraw">Confirm</button>
+            <br>
+            <button id="back-btnW" style="display: none" >Back</button>
+            <p id="wrong-bills"></p>
+          </div>
+
+        </div>
+
+        </div>
+      </div>
+      <div class="btnright">
+        <button class="btnstyle" id="submitbtn" onclick="checkPin()">
+          Submit
+        </button>
+        <button class="btnstyle cancel-btn">Cancel</button>
+      </div>
+    </div>
+    <div class="usercards">
+      <button id="button1" class="card" onclick="requestPinJohn()">
+        0000-0000-0000-<span class="bold">1234</span><br /><br />John Snow
+      </button>
+      <button id="button2" class="card" onclick="requestPinSarah()">
+        0000-0000-0000-<span class="bold">5678</span><br /><br />Sarah Connor
+      </button>
+      <button id="button3" class="card" onclick="requestPinMike()">
+        0000-0000-0000-<span class="bold">9012</span><br /><br />Mike Wazowski
+      </button>
+    </div>
+<footer>
+  <h2>TESI Project by Roman Rozenberg</h2>
+</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

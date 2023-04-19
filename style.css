@@ -1,0 +1,367 @@
+body{
+    background-image: url(img/seamless-metal-texture-background-vector-SBI-300161289.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+header{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+footer{
+    margin-bottom: 0px ;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    padding-top: 5%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ffffff);
+    height: 200px;
+}
+
+.keypad{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 20%;
+    background-image: url(img/brushed-metal-background-texture-a-great-art-element-for-any-design-SBI-301045624.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    /* opacity: 70%; */
+    border: solid rgba(0, 0, 0, 0.529) 5px;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 5%;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.713);
+    margin-bottom: 30px;
+}
+.userint{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 70%;
+    color: #829191;
+    text-align: center;
+    border-top: solid #df2935 20px; 
+    background: hsla(212, 100%, 97%, 1);
+    
+    background: linear-gradient(90deg, hsla(212, 100%, 97%, 1) 0%, hsla(0, 0%, 100%, 1) 99%);
+    
+    background: -moz-linear-gradient(90deg, hsla(212, 100%, 97%, 1) 0%, hsla(0, 0%, 100%, 1) 99%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(212, 100%, 97%, 1) 0%, hsla(0, 0%, 100%, 1) 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0F7FF", endColorstr="#FFFFFF", GradientType=1 );
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.491); 
+    border-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+.userintmain{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0px;
+    flex-direction: row;
+    align-items: flex-start;
+    }
+
+
+    
+
+#pin{
+    height: 25px;
+    width: 80px;
+    border-radius: 10px;
+    border: solid 2px rgb(157, 157, 157);
+    font-size: 16px;
+    color: rgb(147, 147, 147);
+}
+#pin-request{
+    font-size: 20px;
+    margin: 10px;
+}
+.usercards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.card{
+    
+    margin: 10px;
+    color: rgb(81, 79, 71);
+    height: 120px;
+    width: 220px;
+    border-radius: 15px;
+    background: hsla(277, 79%, 84%, 1);
+    
+    background: hsla(197, 14%, 57%, 1);
+    
+    background: linear-gradient(90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8399A2", endColorstr="#EEF2F3", GradientType=1 );
+}
+.bold{
+    font-weight: bolder;
+    color: rgb(54, 108, 218);
+    font-size: 20px;
+}
+
+:hover.card{
+    background-color: rgba(218, 165, 32, 0.472);
+}
+#submitbtn{
+    color: aliceblue;
+display: inline-block;
+margin: 10px;
+justify-content: center;
+align-items: center;
+height: 40px;
+border-radius: 20px;
+border: none;
+background-color: #3ea05f;
+width: 90px;
+box-shadow: inset 6px 0px 12px 3px rgb(59, 58, 58);
+font-weight: lighter;
+}
+.userintheader{
+    height: 100px;
+    background-size: cover;
+    padding: 5px;
+    color: #e0e0e0;
+    background: hsla(213, 77%, 14%, 1);
+    
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(208, 40%, 28%, 1) 24%, hsla(206, 33%, 36%, 1) 52%, hsla(202, 27%, 45%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(208, 40%, 28%, 1) 24%, hsla(206, 33%, 36%, 1) 52%, hsla(202, 27%, 45%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(208, 40%, 28%, 1) 24%, hsla(206, 33%, 36%, 1) 52%, hsla(202, 27%, 45%, 1) 100%);
+    padding-bottom: 20px;
+}
+
+.btnleft{
+    justify-content: flex-start;
+}
+
+.btnstyle2{
+    width: 150px;
+    border-radius: 0%;
+    
+}
+.card {
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 30px 20px rgba(0, 0, 0, 0.491);
+    color: #333;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 1px rgba(221, 0, 0, 0.986);
+    z-index: -1;
+}
+
+.card:active {
+    transform: rotate(90deg);
+}
+.margin{
+    margin: 10px;
+}
+h1{
+    color: rgb(82, 86, 86);
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+h2{
+    text-align: center;
+    color: #000000;
+    font-weight: 900;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-shadow: 1px 9px 3px #00000079;
+}
+
+
+.btnstyle {
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    background-color: #131212;
+    color: #dcd3d3;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+      }
+  
+  .btnstyle:hover {
+    background-color: rgba(0, 0, 0, 0.657);
+    background-position: 100% 0%;
+  }
+  
+  .btnstyle:active {
+    background-position: 0% 100%;
+    box-shadow: none;
+    border: 2px solid #666666;
+  }
+  
+  #btncancel{
+    background-color: red;
+    color: whitesmoke;
+  }
+
+  #balance-display{
+    margin: 20px;
+    padding-top: 20px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 3%;
+    height: 50px;
+    width: 60%;
+    
+  }
+.flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-evenly;
+    
+}
+#deposit-amount {
+    text-align: center;
+    margin: 15px;
+    height: 2em;
+    margin-top: 16px;
+    width: 90px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #7a7676;
+    font-size: 1em;
+}
+
+.atmmenu{
+color: aliceblue;
+display: block;
+margin: 10px;
+justify-content: center;
+align-items: center;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: #4e608a;
+width: 100px;
+box-shadow: inset 6px 0px 12px 3px rgb(59, 58, 58);
+font-weight: lighter;
+}
+
+#confirm-deposit {
+color: aliceblue;
+height: 30px;
+border-radius: 20px;
+border: none;
+background-color: #17ba8e;
+width: 100px;
+box-shadow: inset 6px 0px 12px 3px rgb(59, 58, 58);
+font-weight: lighter;
+}
+
+#wrong-bills{
+    color: red;
+}
+
+.blink {
+    animation: blink 0.2s linear 1;
+  }
+  
+  @keyframes blink {
+    0% {
+      color: red;
+    }
+    25% {
+    }
+    50% {
+    }
+    75% {
+      color: yellow;
+    }
+    100% {
+   
+    }
+  }
+
+#confirm-withdraw{
+color: aliceblue;
+height: 30px;
+border-radius: 20px;
+border: none;
+background-color: #17ba8e;
+width: 100px;
+box-shadow: inset 6px 0px 12px 3px rgb(59, 58, 58);
+font-weight: lighter;
+  }
+
+  #withdraw-amount{
+    text-align: center;
+    margin: 15px;
+    height: 2em;
+    margin-top: 16px;
+    width: 90px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #7a7676;
+    font-size: 1em;
+  }
+
+
+  #back-btn{
+    color: aliceblue;
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e8ac35;
+    width: 100px;
+    box-shadow: inset 6px 0px 12px 3px rgb(59, 58, 58);
+    font-weight: lighter;
+  }
+
+  #back-btnW{
+    margin-top: 5px;
+    color: aliceblue;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e8ac35;
+    width: 100px;
+    box-shadow: inset 6px 0px 12px 3px rgb(59, 58, 58);
+    font-weight: lighter;
+  }
